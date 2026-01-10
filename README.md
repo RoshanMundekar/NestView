@@ -25,3 +25,19 @@ You can install NexusViewPro via pip:
 
 ```bash
 pip install NexusViewPro
+```
+
+
+# How to Install this package in Your System
+
+```bash
+conda create -n nexusviewpro_env python=3.8 -y
+```
+
+```bash
+conda activate nexusviewpro_env
+```
+
+```bash
+pip install -r requirements_dev.txt
+```
