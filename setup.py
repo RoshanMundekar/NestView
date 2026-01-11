@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 
 REPO_NAME = "NexusViewPro"
 AUTHOR_USER_NAME = "entbappy"
