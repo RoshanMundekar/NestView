@@ -1,5 +1,5 @@
-from NexusViewPro.logger import logger
-from NexusViewPro.custom_exception import InvalidURLException
+from NestView.logger import logger
+from NestView.custom_exception import InvalidURLException
 
 try:
     raise InvalidURLException()

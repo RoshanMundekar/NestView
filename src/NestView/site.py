@@ -1,7 +1,7 @@
 from IPython import display
 import urllib.request
-from NexusViewPro.custom_exception import InvalidURLException
-from NexusViewPro.logger import logger
+from NestView.custom_exception import InvalidURLException
+from NestView.logger import logger
 
 
 

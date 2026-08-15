@@ -1,7 +1,7 @@
 from IPython.display import HTML, display
 import re
-from NexusViewPro.custom_exception import InvalidURLException
-from NexusViewPro.logger import logger
+from NestView.custom_exception import InvalidURLException
+from NestView.logger import logger
 
 def render_youtube_video(url: str, width: int = 780, height: int = 440):
   try:

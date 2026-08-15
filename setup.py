@@ -6,19 +6,19 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 
 
-__version__ = "0.0.2"
+__version__ = "0.0.1"
 
-REPO_NAME = "NexusViewPro"
-AUTHOR_USER_NAME = "entbappy"
-AUTHOR_EMAIL = "entbappy73@gmail.com"
-SRC_REPO = "NexusViewPro"
+REPO_NAME = "NestView"
+AUTHOR_USER_NAME = "roshanmundekar"
+AUTHOR_EMAIL = "roshanmundekar@gmail.com"
+SRC_REPO = "NestView"
 
 setuptools.setup(
     name=SRC_REPO,
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package",
+    description="A lightweight Python library to render websites and YouTube videos in Jupyter Notebooks.",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
